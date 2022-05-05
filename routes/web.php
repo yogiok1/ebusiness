@@ -23,4 +23,5 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/logout', Logout::class)->name('logout');
 
 });
+// tes
 
